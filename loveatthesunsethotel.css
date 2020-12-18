@@ -1,14 +1,14 @@
 h1 {
 text-align:center;
-font:100pt Pacifico;
+font:100pt MostlyMono;
 background:#232323;
 color:#F1F1F1;
   
 margin:0px 0px 10px 0px;
 }
 @font-face {
- font-family:pacifico;
- src:url(Pacifico-Regular.ttf);
+ font-family:mostlymono;
+ src:url(MostlyMono.ttf);
 }
 
 img {
