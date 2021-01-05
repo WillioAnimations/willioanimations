@@ -19,16 +19,36 @@ box-shadow:0px 5px 5px black;
  font-family:mostlymono;
  src:url(MostlyMono.ttf);
 }
+@font-face {
+  font-family:comfortaa;
+  src:url(Comfortaa.ttf);
+}
 
 img {
-  display:block;
+  display:inline-block;
   max-width:100%;
   max-height:80vh;
   height:100%;
  box-shadow:5px 5px 5px black;
+ float:left;
+}
+
+#summary {
+  font:20px Comfortaa;
+  padding:10px;
+  background:rgb(154 81 73);
+  color:#dcd1c7;
+
+  display:inline-block;
+  width:50%;
+  height:40vh;
+  margin:0px 10px 0px;
+  box-shadow:5px 5px 5px black
 }
 
 #flyerdiv {
  display:block; 
  margin:0px 0px 0px 10px;
+ float:left;
+
 }
